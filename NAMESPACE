@@ -1,0 +1,9 @@
+exportPattern("^[[:alpha:]]+")
+
+importFrom(stats,cov, dnorm, rnorm, runif)
+import(MTS)
+import(coda)
+import(mvtnorm)
+
+
+

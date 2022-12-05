@@ -1,9 +1,5 @@
 BayesianBEKK<-function(X,sd=10,iter=100,burnIn=40)
  {
-
-  requireNamespace("MTS")
-  requireNamespace("coda")
-  requireNamespace("mvtnorm")
     pop<-X
   k=dim(pop)[2]
   nT=dim(pop)[1]
